@@ -6,6 +6,13 @@ This document is a **structured, self-driven roadmap** to build strong scientifi
 - Practical implementation
 - Deep intuition
 
+It also works as an **AI-guided study plan**. The goal is not just to collect resources, but to turn each topic into:
+- notes
+- derivations
+- coding exercises
+- review sessions
+- checkpoints
+
 ---
 
 # 📚 1. Mathematical Foundations
@@ -35,15 +42,22 @@ Build the mathematical intuition required to understand *why* machine learning w
 ## 📖 Books
 - Mathematics for Machine Learning – Deisenroth
 - Linear Algebra Done Right – Sheldon Axler
+- Linear Algebra and Learning from Data – Gilbert Strang
 - Introduction to Probability – Blitzstein
 - Mathematical Statistics and Data Analysis – John Rice
 
-## 🔍 How to Find Them
-- Search by exact title on:
-  - Google
-  - Amazon
-  - PDF search (for academic versions)
-  - University course pages (many provide free PDFs)
+## 🧩 Recommended Book Sequence For You
+Use this as your main path before starting ML theory:
+1. Mathematics for Machine Learning
+2. Linear Algebra Done Right (selective reading)
+3. Linear Algebra and Learning from Data
+4. Then move to Machine Learning Theory
+
+## 🔍 How to Use Resources
+- Use books for deep study
+- Use course pages for structured explanations
+- Use AI to clarify difficult sections after your own attempt
+- Write your own summary after each reading session
 
 ## 📘 Study Plan
 1. Start with linear algebra (vectors → matrices → eigen concepts)
@@ -103,10 +117,11 @@ Understand the **core principles behind ML algorithms**, not just usage.
 - Understanding Machine Learning: From Theory to Algorithms
 - Learning From Data – Abu-Mostafa
 
-## 🔍 How to Find Them
-- University websites (Stanford, MIT)
-- Search: "book name + pdf"
-- Kaggle & GitHub repos often link resources
+## 🔍 How to Use Resources
+- Use books for theory and rigor
+- Use lectures and course notes for alternative explanations
+- Use AI to test whether you understand the idea, not just the definition
+- Keep one implementation artifact for each major concept
 
 ## 📘 Study Plan
 1. Start with linear regression (math + implementation)
@@ -164,10 +179,10 @@ Understand neural networks from both **mathematical and practical perspectives**
 - Neural Networks and Deep Learning – Michael Nielsen
 - Probabilistic Machine Learning – Kevin Murphy
 
-## 🔍 How to Find Them
-- Official book websites
-- GitHub repos (Nielsen book is free online)
-- Academic PDFs
+## 🔍 How to Use Resources
+- Start with one primary book, not many at once
+- Use AI when a derivation or architecture is unclear
+- Follow each reading block with one coding exercise
 
 ## 📘 Study Plan
 1. Start with single neuron and perceptron
@@ -219,10 +234,10 @@ Turn theory into **real-world problem solving skills**.
 - Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow
 - Programming Collective Intelligence
 
-## 🔍 How to Find Them
-- O’Reilly platform
-- Kaggle learning resources
-- GitHub repositories
+## 🔍 How to Use Resources
+- Use projects and datasets as your main feedback loop
+- Ask AI to critique your feature choices and evaluation logic
+- Keep short post-project notes on what worked and failed
 
 ## 📘 Study Plan
 1. Learn data preprocessing techniques
@@ -271,10 +286,10 @@ Reach **research-level understanding**.
 - Machine Learning: A Probabilistic Perspective – Kevin Murphy
 - Information Theory, Inference, and Learning Algorithms – David MacKay
 
-## 🔍 How to Find Them
-- arXiv.org
-- Google Scholar
-- University repositories
+## 🔍 How to Use Resources
+- Read papers more slowly than books
+- Ask AI to explain notation and assumptions only after your own reading
+- Summarize every paper in your own words before moving on
 
 ## 📘 Study Plan
 1. Study probabilistic models deeply
@@ -328,6 +343,33 @@ For each topic:
 3. Implement from scratch
 4. Build small project
 5. Reflect and iterate
+
+## AI Session Pattern
+
+For every study session, use this order:
+1. Define the exact topic
+2. Write your own current understanding
+3. Ask AI to explain only the missing part
+4. Ask AI for a quiz or exercise
+5. Implement or solve something yourself
+6. Record what is still weak
+
+## Recommended Outputs Per Topic
+
+Each major topic should produce:
+- one note written in your own words
+- one derivation or theory summary
+- one coding exercise
+- one AI quiz session
+- one checkpoint review
+
+## Tracking Files
+
+Use these files to support the plan:
+- [AI_STUDY_SYSTEM.md](AI_STUDY_SYSTEM.md)
+- [templates/daily-study-log.md](templates/daily-study-log.md)
+- [templates/weekly-review.md](templates/weekly-review.md)
+- [templates/topic-checkpoint.md](templates/topic-checkpoint.md)
 
 ---
 

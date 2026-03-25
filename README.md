@@ -2,6 +2,12 @@
 
 A structured, self-driven roadmap to master **Artificial Intelligence** and **Data Science** from first principles to advanced level.
 
+This repository is a **personal AI-assisted learning workspace**. It is meant to help you:
+- track progress
+- study with structure
+- use AI as a tutor, reviewer, and coach
+- convert topics into projects, notes, and checkpoints
+
 This repository is designed to help you build:
 - Strong mathematical foundations
 - Deep understanding of machine learning theory
@@ -17,6 +23,25 @@ This repository is designed to help you build:
 - Implement ML/DL models from scratch
 - Apply knowledge to real-world datasets
 - Reach advanced / research-level understanding
+
+---
+
+# 🤖 How AI Fits Into This Repo
+
+Use AI in four roles:
+- **Tutor**: explain concepts with intuition, math, and examples
+- **Reviewer**: test understanding with questions, quizzes, and correction
+- **Coach**: break topics into weekly and daily tasks
+- **Project Mentor**: turn theory into coding exercises and small projects
+
+Use AI to do these things:
+- Ask for concept breakdowns from simple to technical
+- Request derivations step by step before implementation
+- Generate exercises only after you study the theory
+- Review your notes and identify weak spots
+- Suggest the next topic based on what you already finished
+
+Do not use AI as a shortcut for answers you have not attempted yourself.
 
 ---
 
@@ -37,8 +62,15 @@ Mathematics → Machine Learning → Deep Learning → Applied Data Science → 
 ## 📖 Books
 - Mathematics for Machine Learning – Deisenroth  
 - Linear Algebra Done Right – Sheldon Axler  
+- Linear Algebra and Learning from Data – Gilbert Strang  
 - Introduction to Probability – Blitzstein  
 - Mathematical Statistics and Data Analysis – John Rice  
+
+## 🧩 Recommended Order For You
+1. Mathematics for Machine Learning
+2. Linear Algebra Done Right (selective reading)
+3. Linear Algebra and Learning from Data
+4. Then move to Machine Learning Theory
 
 ## 📘 Study Plan
 1. Learn linear algebra concepts deeply  
@@ -226,6 +258,21 @@ You are done when you can:
 3. Validate with tasks  
 4. Repeat  
 
+## Daily Loop
+1. Pick one topic or subtopic
+2. Read and write your own notes first
+3. Ask AI to explain gaps in your understanding
+4. Derive or solve at least one thing by hand
+5. Implement one small exercise in Python
+6. Log what you understood, what was confusing, and what comes next
+
+## Weekly Loop
+1. Review what you studied
+2. List weak areas
+3. Ask AI for a focused revision plan
+4. Build one checkpoint exercise or mini-project
+5. Update your next-week priorities
+
 ---
 
 # 📏 Self-Evaluation Checklist
@@ -251,6 +298,22 @@ You are done when you can:
 
 ---
 
+# 🧭 AI Study System
+
+Use these files as your operating system for learning:
+- [AI_STUDY_SYSTEM.md](AI_STUDY_SYSTEM.md) for the end-to-end workflow
+- [templates/daily-study-log.md](templates/daily-study-log.md) for daily sessions
+- [templates/weekly-review.md](templates/weekly-review.md) for weekly reflection
+- [templates/topic-checkpoint.md](templates/topic-checkpoint.md) for finishing a topic properly
+
+Suggested use:
+1. Start from the roadmap section you are currently studying
+2. Copy the daily template into your notes folder or project area
+3. Use the AI workflow to study, quiz, and implement
+4. End the week with a review and update the next steps
+
+---
+
 # 📂 Suggested Repo Structure
 
 /math
@@ -258,6 +321,14 @@ You are done when you can:
 /deep-learning
 /projects
 /notes
+/journal
+/templates
+
+You do not need to build this structure all at once. Start with:
+- one active topic
+- one daily log
+- one weekly review
+- one small implementation folder
 
 ---
 
